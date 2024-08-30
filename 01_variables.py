@@ -89,3 +89,30 @@ print(i)
 a = "42"
 b = "43"
 print(a + " " + b) # gives 42 43 .. this is called concatenation
+
+# Power
+a = 10
+print(a**2) # a square
+
+# ------------------------------------------ Comparision Operators -----------------------------------------
+
+a = 10
+b = 20
+res = a > b
+res_1 = a < b
+res_2 = a != b
+res_3 = a == b
+
+print(res, res_1, res_2, res_3)
+
+# ------------------------------------------ Logical Operators -----------------------------------------------
+
+# AND, NOT, OR
+a = True
+b = False
+
+res = a and b
+res_1 = a or b
+res_2 = not a
+res_3 = not b
+print(res, res_1, res_2, res_3)
